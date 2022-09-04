@@ -21,3 +21,9 @@ API endpoint is under <code>/api/clients</code>.
     <li>to update a client use <code>PUT /api/clients/{id}</code></li>
     <li>to delete a client use <code>DELETE /api/clients/{id}</code></li>
 </ul>
+
+To run the project using docker(laravel sail):
+
+<code>cp .env.example .env </code><br />
+<code>composer require laravel/sail --dev && php artisan sail:install </code><br />
+<code>./vendor/bin/sail up</code><br />
