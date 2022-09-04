@@ -49,7 +49,7 @@
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
                             Use this command to fill the database with dummy content.<br />
-                            <code> $ php artisan db:seed --class=ArticlesTableSeeder </code>
+                            <code> $ php artisan db:seed --class=ClientsTableSeeder </code>
                         </div>
 
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
@@ -61,14 +61,6 @@
                                 <li>to update a client use <code>PUT /api/clients/{id}</code></li>
                                 <li>to delete a client use <code>DELETE /api/clients/{id}</code></li>
                             </ul>
-                        </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700">
-                            
-                        </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
-                            
                         </div>
                     </div>
                 </div>
